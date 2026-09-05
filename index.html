@@ -581,7 +581,8 @@
   const SUPABASE_URL = 'https://vzhjodciyvvtggdtgdfq.supabase.co';
   const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6aGpvZGNpeXZ2dGdnZHRnZGZxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1NzE4MzQsImV4cCI6MjEwNDE0NzgzNH0.iDmKcemRPW-HU3eeqcNXFHYIWwb3Ma8dF1-A13iUfH8';
   const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-const CONFIGURED = true;
+  const CONFIGURED = false;
+
   /* ---- Modo prueba: mientras no conectes Supabase, usuarios y
      movimientos se guardan en este navegador (localStorage) con la
      misma forma de datos, para poder ver el diseño y el flujo de
